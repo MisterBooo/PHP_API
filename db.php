@@ -36,7 +36,7 @@ class Db{
             //连接数据库
             self::$_connectSource = mysqli_connect($this->_dbConfig['host'], $this->_dbConfig['user'], $this->_dbConfig['password']);
             if (!self::$_connectSource){
-                die('mysql connect error '.mysqli_error());
+                throw new Exception('mysql connect error '.mysqli_error());
             }
             //选择数据库
             mysqli_select_db(self::$_connectSource,$this->_dbConfig['database']);
@@ -45,13 +45,14 @@ class Db{
     }
 
 }
+/*
 $connect = Db::getInstance()->connect();
 $sql = 'select * from cccc';
 //查询数据库
 $result = mysqli_query($connect,$sql);
 echo mysqli_num_rows($result);
 
-
+*/
 
 
 
