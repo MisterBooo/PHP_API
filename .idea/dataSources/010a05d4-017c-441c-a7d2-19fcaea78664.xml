@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="information_schema">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="mysql"/>
+    <schema id="4" parent="1" name="performance_schema"/>
+    <schema id="5" parent="1" name="testDatabase">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="6" parent="1" name="test_Db">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="1" name="test_Db2">
+      <Visible>1</Visible>
+    </schema>
+    <table id="8" parent="5" name="cccc"/>
+    <column id="9" parent="8" name="a">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="10" parent="8" name="b">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="11" parent="8" name="c">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="12" parent="8" name="d">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="13" parent="8" name="e">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
