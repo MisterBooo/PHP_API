@@ -5,6 +5,9 @@
       <webServer id="f3ef3d87-b1b4-46e7-9e85-10e1e4982f68" name="localhost" url="http://localhost:8888">
         <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
       </webServer>
+      <webServer id="7ec1f962-8a62-47a3-8892-7e7640325177" name="APIHost" url="http://apitest.com:8888">
+        <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </project>
